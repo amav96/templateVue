@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  transportesapp:
+    container_name: transportesapp
+    build:
+      context: .
+      dockerfile: dockerfile
+    command: sh /var/www/html/node_start.sh
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 3003:3003
+
+    working_dir: /var/www/html
+    networks:
+      - mysql_net
+networks:
+  mysql_net:
+    external: true
+    name: mysql_net
+

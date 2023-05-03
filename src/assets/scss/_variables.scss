@@ -1,0 +1,52 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: Quicksand-Regular, sans-serif, Quicksand;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$white: #fff;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$primary: #0275d8;
+$success: #5cb85c;
+$info: #5bc0de;
+$danger: #d9534f;
+$grayClaro: #fbfbfb;
+$grayIntermedio: #ebebeb;
+$grayOscuro: #efefef;
+$grayButton: #bfbfbf;
+$textColorOscuro: #363636;
+$naranjaMarca: #ff8201;
+$borderColor: #a3a3a3;
+$borderColorClaro: #cfcfcf;
+$azulPastel: #6587dd;
+$verdeAgua: #6cbc9c;
+$naranjaPastel: #ffa74d;
+$rojoPastel: #cf3131;
+$violetaPastel: #7e5fbe;
+$rojoDanger: #ff0000;
+$verdeOk: #1ed400;
+$amarilloWarning: #ffe500;
+$inputColor: #616161;
+$verdeAgua_0-25: rgba(131, 227, 189, 0.25);
+
+// Custom colors
+$theme-colors: (
+    "medium-dark" : #292d31,
+    "darker" : #232425,
+    "light": #f0f0f0,
+    "grislight": #dddddd,
+    'invalid': #f9d6d5,
+    'invalidtext': #761b18,
+);
