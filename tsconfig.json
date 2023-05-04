@@ -12,6 +12,7 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true
   },
   "include": [
@@ -19,6 +20,6 @@
     "src/**/*.d.ts", 
     "src/**/*.tsx", 
     "src/**/*.vue"
-  ],
+, "src/components/Form/Input/__tests__/input.spec.js"  ],
   "references": [{ "path": "./tsconfig.node.json" }],
 }

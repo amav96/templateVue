@@ -1,13 +1,14 @@
 import { defineConfig, loadEnv } from "vite";
 import vue from "@vitejs/plugin-vue";
-import VueTypeImports from "vite-plugin-vue-type-imports";
+// import VueTypeImports from "vite-plugin-vue-type-imports";
 const env = loadEnv("mock", process.cwd(), "");
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(), 
-    VueTypeImports()],
+    // VueTypeImports()
+    ],
   server: {
     port: Number(env.VUE_PORT_CLIENT),
     host: true, // needed for the Docker Container port mapping to work
@@ -22,6 +23,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": "/src",
+      "@fonts": "/src/assets/scss/fonts"
     },
   },
   define: {
